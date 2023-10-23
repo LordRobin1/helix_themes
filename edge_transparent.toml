@@ -1,0 +1,20 @@
+inherits = "edge_aura"
+
+"ui.background" = { }
+"ui.selection" = { bg = "select_blue" }
+
+"ui.cursorline.primary" = { }
+"ui.cursorline.secondary" = { }
+"ui.cursorcolumn.primary" = { }
+
+"ui.popup" = { fg = "fg" }
+"ui.popup.info" = { fg = "purple" }
+"ui.window" = { fg = "fg" }
+"ui.help" = { fg = "fg" }
+
+"ui.text.info" = { fg = "fg" }
+"ui.menu" = { fg = "fg" }
+"ui.menu.selected" = { fg = "black", bg = "blue" }
+
+"ui.virtual.inlay-hint" = "grey"
+"ui.gutter.selected" = {  }

@@ -1,0 +1,18 @@
+inherits = "dark_plus"
+
+"type.builtin" = "blue2"
+"variable.other.member" = "member"
+"variable.parameter" = "fn_declaration"
+"keyword.directive" = "directive" 
+
+"ui.debug.breakpoint" = "debug_br"
+"ui.debug.active" = { bg = "debug_bg2" }
+"ui.highlight.frameline" = { bg = "debug_bg2"}
+"ui.linenr.selected" = { fg = "blue2", modifiers = ["bold", "italic"] }
+"ui.text.focus" = "blue2"
+
+[palette]
+member = "#9373A5"
+directive = "#C586A1"
+debug_br = "#F84961"
+debug_bg2 = "#565A30"

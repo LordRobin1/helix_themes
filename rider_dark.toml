@@ -1,0 +1,158 @@
+"type" = "purple"
+"type.builtin" = "blue"
+
+"constructor" = "blue"
+
+"constant" = "blue"
+"constant.numeric" = "pink"
+"constant.character" = "orange"
+"constant.character.escape" = "pink"
+
+"string" = "orange"
+"string.regexp" = "teal_3"
+
+"comment" = { fg = "grey", modifiers = ["italic"] }
+"comment.documentation" = { fg = "green_3", modifiers = ["italic"] }
+
+"variable" = "fg_2"
+"variable.parameter" = "fg_2"
+"variable.builtin" = "blue"
+"variable.other" = "teal"
+"variable.other.member" = "teal"
+
+"label" = "orange_3"
+
+"punctuation" = "fg_2"
+"punctuation.delimiter" = "fg_2"
+"punctuation.bracket" = "fg_3"
+"punctuation.special" = "fg_3"
+
+"keyword" = "blue"
+"keyword.control" = "special"
+"keyword.operator" = "special"
+"keyword.control.import" = "blue"
+"keyword.function" = "blue"
+"keyword.directive" = "blue"
+"keyword.storage" = "blue"
+
+"operator" = "purple_2"
+
+"function" = { fg = "green_2", modifiers = ["bold"] }
+"function.builtin" = { fg = "blue", modifiers = ["bold"] }
+"function.macro" = { fg = "blue", modifiers = ["italic"] }
+"function.method" = "blue"
+
+"tag" = "purple"
+
+namespace = "purple_2"
+
+"markup.heading.marker" = "grey"
+"markup.heading.1" = { fg = "purple", modifiers = ["bold"] }
+"markup.heading.2" = { fg = "purple", modifiers = ["bold"] }
+"markup.heading.3" = { fg = "purple", modifiers = ["bold"] }
+"markup.heading.4" = { fg = "purple", modifiers = ["bold"] }
+"markup.heading.5" = { fg = "purple", modifiers = ["bold"] }
+"markup.heading.6" = { fg = "fg", modifiers = ["bold"] }
+"markup.list" = "red"
+"markup.bold" = { fg = "orange_3", modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = { fg = "blue", modifiers = ["underlined"] }
+"markup.link.text" = "purple"
+"markup.quote" = "fg_2"
+"markup.raw" = "teal"
+
+"diff.plus" = "green_3"
+"diff.minus" = "red_2"
+"diff.delta" = "blue"
+
+"ui.background" = { bg = "bg" }
+"ui.background.separator" = "bg_2"
+"ui.cursor" = { fg = "bg", bg = "fg" }
+"ui.cursor.match" = { fg = "fg_3", bg = "diff_blue" }
+"ui.cursor.insert" = { fg = "black", bg = "grey" }
+"ui.cursor.select" = { fg = "bg", bg = "select_blue" }
+"ui.cursorline.primary" = { bg = "bg_0" }
+"ui.cursorline.secondary" = { bg = "bg_0" }
+"ui.cursorcolumn.primary" = { bg = "bg_0" }
+"ui.selection" = { bg = "select_blue" }
+"ui.linenr" = "grey"
+"ui.linenr.selected" = { fg = "purple", modifiers = ["bold", "italic"] }
+"ui.statusline" = { fg = "fg", bg = "bg_4" }
+"ui.statusline.inactive" = { fg = "grey", bg = "bg_2" }
+"ui.statusline.normal" = { fg = "bg", bg = "green_2", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "bg", bg = "purple", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "bg", bg = "blue_3", modifiers = ["bold"] }
+"ui.bufferline" = { fg = "fg_2", bg = "bg_4" }
+"ui.bufferline.active" = { fg = "bg", bg = "purple", modifiers = ["bold"] }
+"ui.popup" = { fg = "grey", bg = "bg_4" }
+"ui.popup.info" = "purple"
+"ui.window" = "grey"
+"ui.help" = { fg = "fg", bg = "bg_2" }
+"ui.text" = "fg"
+"ui.text.focus" = "green"
+"ui.text.info" = "fg_2"
+"ui.menu" = { fg = "fg", bg = "bg_4" }
+"ui.menu.selected" = { fg = "bg", bg = "blue" }
+"ui.virtual.whitespace" = { fg = "bg_4" }
+"ui.virtual.indent-guide" = { fg = "bg_4" }
+"ui.virtual.soft-wrap-indicator" = "bg_4"
+"ui.virtual.ruler" = { bg = "bg_0" }
+"ui.virtual.inlay-hint" = { fg = "grey", bg = "bg_2" }
+"ui.debug.breakpoint" = "debug_br"
+"ui.debug.active" = { bg = "debug_bg" }
+"ui.highlight.frameline" = { bg = "debug_bg"}
+"ui.gutter.selected" = { bg = "bg_0" }
+
+"hint" = "blue_3"
+"info" = "green"
+"warning" = "orange_3"
+"error" = "red_2"
+"diagnostic" = { underline = { style = "line" } }
+"diagnostic.hint" = { underline = { color = "blue_3", style = "dashed" } }
+"diagnostic.info" = { underline = { color = "green", style = "dashed" } }
+"diagnostic.warning" = { underline = { color = "orange_4", style = "curl" } }
+"diagnostic.error" = { underline = { color = "red_2", style = "curl" } }
+
+[palette]
+
+bg_0 = "#141414" #vs cursor line
+bg = "#1e1f22"   #rider bg
+bg_2 = "#262626" #vs bg
+bg_3 = "#2b2d37" #rider cursor line
+bg_4 = "#333644"
+grey = "#6f737a" #rider comment
+fg = "#ced0d6"   #rider fg
+fg_2 = "#bdbdbd" #vs punctuation
+fg_3 = "#dcdcdc" #vs brackets
+
+blue = "#749ded"        #rider
+blue_2 = "#6c95eb"      #vs
+blue_3 = "#49acf2"
+diff_blue = "#273b4c"
+select_blue = "#2c4e67"
+
+green = "#7ec482"   #rider strings
+green_2 = "#39cc8f" #vs functions
+green_3 = "#57a64a" #vs comment
+
+teal = "#72cfd6"   #rider
+teal_2 = "#66c3cc" #vs
+teal_3 = "#05c3ba" #vs regexp
+
+purple = "#b189f5"   #rider
+purple_2 = "#c191ff" #vs
+pink = "#d981de"     #rider nums
+pink_2 = "#ed94c0"   #vs nums
+special = "#d8a0df"  #only vs (if, for,...)
+
+red = "#ec7279"
+red_2 = "#ff2d38"
+
+yellow = "#ffe77b"
+
+orange = "#debc7e"   #rider functions
+orange_2 = "#c9a26d" #vs strings
+orange_3 = "#cc7832" #rider regex
+orange_4 = "#e59b77"
+debug_bg = "#714a0b"
+debug_br = "#f84961"
