@@ -2,7 +2,7 @@ inherits = "dark_plus"
 
 "type.builtin" = "blue2"
 "variable.other.member" = "member"
-"variable.parameter" = "fn_declaration"
+# "variable.parameter" = "fn_declaration"
 "keyword.directive" = "directive" 
 
 "ui.debug.breakpoint" = "debug_br"
