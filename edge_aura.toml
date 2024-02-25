@@ -1,5 +1,6 @@
 "type" = "yellow"
 "type.builtin" = "red"
+"type.enum.variant" = "orange"
 
 "constructor" = "yellow"
 
@@ -64,7 +65,7 @@
 "markup.raw" = "teal"
 
 "diff.plus" = "green"
-"diff.delta" = "orange"
+"diff.delta" = "blue"
 "diff.minus" = "red"
 
 "ui.background" = { bg = "bg0" }
@@ -91,10 +92,10 @@
 "ui.window" = { fg = "fg", bg = "black" }
 "ui.help" = { fg = "fg", bg = "black" }
 "ui.text" = "fg"
-"ui.text.focus" = "green"
+"ui.text.focus" = "blue"
 "ui.text.info" = { fg = "fg", bg = "black" }
 "ui.menu" = { fg = "fg", bg = "black" }
-"ui.menu.selected" = { fg = "black", bg = "blue" }
+"ui.menu.selected" = { fg = "black", bg = "purple" }
 "ui.virtual.whitespace" = { fg = "bg4" }
 "ui.virtual.indent-guide" = { fg = "bg4" }
 "ui.virtual.soft-wrap-indicator" = "bg4"
