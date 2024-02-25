@@ -7,14 +7,13 @@ inherits = "edge_aura"
 "ui.cursorline.secondary" = { }
 "ui.cursorcolumn.primary" = { }
 
-"ui.popup" = { fg = "fg" }
-"ui.popup.info" = { fg = "purple" }
-"ui.window" = { fg = "fg" }
-"ui.help" = { fg = "fg" }
+"ui.popup" = { fg = "fg", bg = "bg0" }
+"ui.popup.info" = { fg = "purple", bg = "bg0" }
+"ui.window" = { fg = "fg", bg = "bg0" }
+"ui.help" = { fg = "fg", bg = "bg0" }
 
-"ui.text.info" = { fg = "fg" }
-"ui.menu" = { fg = "fg" }
-"ui.menu.selected" = { fg = "black", bg = "blue" }
+"ui.text.info" = { fg = "fg", bg = "bg0" }
+"ui.menu" = { fg = "fg", bg = "bg0" }
 
-"ui.virtual.inlay-hint" = "grey"
+"ui.virtual.inlay-hint" = { fg = "grey", bg = "bg2" }
 "ui.gutter.selected" = {  }
