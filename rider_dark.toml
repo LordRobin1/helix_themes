@@ -101,7 +101,6 @@ namespace = "purple_2"
 "ui.debug.breakpoint" = "debug_br"
 "ui.debug.active" = { bg = "debug_bg" }
 "ui.highlight.frameline" = { bg = "debug_bg"}
-"ui.gutter.selected" = { bg = "bg_0" }
 
 "hint" = "blue_3"
 "info" = "green"
