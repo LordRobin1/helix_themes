@@ -36,7 +36,7 @@
 "keyword.directive" = "blue"
 "keyword.storage" = "blue"
 
-"operator" = "fg"
+"operator" = "fg_2"
 
 "function" = { fg = "green_2", modifiers = ["bold"] }
 "function.builtin" = { fg = "blue", modifiers = ["bold"] }
@@ -45,10 +45,10 @@
 
 "tag" = "purple"
 
-namespace = "fg"
+namespace = "fg_2"
 "attribute" = "purple_2"
-"module" = "fg"
-"special" = "fg"
+"module" = "fg_2"
+"special" = "fg_2"
 
 "markup.heading.marker" = "grey"
 "markup.heading.1" = { fg = "purple", modifiers = ["bold"] }
@@ -72,13 +72,13 @@ namespace = "fg"
 "ui.background" = { bg = "bg" }
 "ui.background.separator" = "bg_2"
 "ui.cursor" = { fg = "bg", bg = "fg" }
-"ui.cursor.match" = { fg = "fg_3", bg = "diff_blue" }
+"ui.cursor.match" = { fg = "fg_3", bg = "match" }
 "ui.cursor.insert" = { fg = "black", bg = "grey" }
-"ui.cursor.select" = { fg = "bg", bg = "select_blue" }
+"ui.cursor.select" = { fg = "bg", bg = "select_blue_2" }
 "ui.cursorline.primary" = { bg = "bg_0" }
 "ui.cursorline.secondary" = { bg = "bg_0" }
 "ui.cursorcolumn.primary" = { bg = "bg_0" }
-"ui.selection" = { bg = "select_blue" }
+"ui.selection" = { bg = "select_blue_2" }
 "ui.linenr" = "grey"
 "ui.linenr.selected" = { fg = "purple", modifiers = ["bold", "italic"] }
 "ui.statusline" = { fg = "fg", bg = "bg_4" }
@@ -115,7 +115,7 @@ namespace = "fg"
 "diagnostic.info" = { underline = { color = "green", style = "dashed" } }
 "diagnostic.warning" = { underline = { color = "orange_4", style = "curl" } }
 "diagnostic.error" = { underline = { color = "red_2", style = "curl" } }
-"diagnostic.unnecessary" = { modifiers = ["dim"], underline = { color = "orange_4", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"], underline = { color = "gold", style = "curl" } }
 "diagnostic.deprecated" = { modifiers = ["dim", "crossed_out"], underline = { color = "orange_4", style = "curl" } }
 
 [palette]
@@ -135,6 +135,8 @@ blue_2 = "#6c95eb"      #vs
 blue_3 = "#49acf2"
 diff_blue = "#273b4c"
 select_blue = "#2c4e67"
+select_blue_2 = "#07335D"
+match = "#422140"
 
 green = "#7ec482"   #rider strings
 green_2 = "#39cc8f" #vs functions
@@ -159,5 +161,6 @@ orange = "#debc7e"   #rider functions
 orange_2 = "#c9a26d" #vs strings
 orange_3 = "#cc7832" #rider regex
 orange_4 = "#e59b77"
+gold = "#aaa285"
 debug_bg = "#714a0b"
 debug_br = "#f84961"
