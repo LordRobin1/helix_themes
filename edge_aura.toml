@@ -115,6 +115,8 @@
 "diagnostic.info" = { underline = { color = "green", style = "dashed" } }
 "diagnostic.warning" = { underline = { color = "orange", style = "curl" } }
 "diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"], underline = { color = "orange", style = "curl" } }
+"diagnostic.deprecated" = { modifiers = ["dim", "crossed_out"], underline = { color = "orange", style = "curl" } }
 
 [palette]
 
