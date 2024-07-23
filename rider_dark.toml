@@ -1,5 +1,6 @@
 "type" = "purple"
 "type.builtin" = "blue"
+"type.enum.variant" = "teal"
 
 "constructor" = "blue"
 
@@ -20,7 +21,7 @@
 "variable.other" = "teal"
 "variable.other.member" = "teal"
 
-"label" = "orange_3"
+"label" = "teal_3"
 
 "punctuation" = "fg_2"
 "punctuation.delimiter" = "fg_2"
@@ -35,7 +36,7 @@
 "keyword.directive" = "blue"
 "keyword.storage" = "blue"
 
-"operator" = "purple_2"
+"operator" = "fg"
 
 "function" = { fg = "green_2", modifiers = ["bold"] }
 "function.builtin" = { fg = "blue", modifiers = ["bold"] }
@@ -44,7 +45,10 @@
 
 "tag" = "purple"
 
-namespace = "purple_2"
+namespace = "fg"
+"attribute" = "purple_2"
+"module" = "fg"
+"special" = "fg"
 
 "markup.heading.marker" = "grey"
 "markup.heading.1" = { fg = "purple", modifiers = ["bold"] }
